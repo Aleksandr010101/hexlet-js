@@ -1,5 +1,6 @@
-import _ from "lodash";
+import _ from 'lodash';
 
-console.log('Hello, Hexlet!');
+import { myLast } from './src/index.js';
 
-console.log(_.last(['one', 'two']));
+const result = myLast('one', 'two');
+console.log(result);
